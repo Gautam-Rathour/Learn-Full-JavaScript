@@ -1,0 +1,84 @@
+/* div{
+    height:100px;
+    width:100px;
+    background-color:rgb(22, 200, 235);
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px;
+    text-align:center; 
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}*/
+
+#mode{
+    color:white;
+    background-color:black;
+    border-radius:10px;
+    position:absolute;
+    left: 270px;
+} 
+
+
+
+.dark{
+    background-color: black;
+    color:white;
+}
+
+
+.light{
+    background-color: white;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
