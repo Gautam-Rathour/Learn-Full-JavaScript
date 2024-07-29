@@ -1345,7 +1345,7 @@ let admin1 = new Admin ("ram ", "ram@gmail.com");*/
 //     console.log(res);
 // })
 
-//================================
+//==============================
 
 //  callBack hell
 
