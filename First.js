@@ -1376,9 +1376,12 @@
 //     factPara.innerText = data[2].text;
 // };
 
+// btn.addEventListener("click",getFacts);
+
+
 // // function getFacts() {
 // //     fetch(URL)
-// //     .then((response) => {
+// //     .then((response) => {,
 // //         return response.json();
 // //     })
 // //     .then((data) => {
@@ -1389,9 +1392,20 @@
 
 // btn.addEventListener("click",getFacts);
 
-console.log("My name is Mrinal Devnath")
 
 
+
+// practic ==============
+
+let url = fetch("https://cat-fact.herokuapp.com/facts")
+
+url.then((value1) => {
+    console.log(value1.status);
+    console.log(value1.ok);
+    return value1.json()
+}).then((value2) => {
+    console.log(value2);
+})
 
 
 
